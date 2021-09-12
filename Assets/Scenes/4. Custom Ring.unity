@@ -312,7 +312,7 @@ GameObject:
   - component: {fileID: 982888770}
   - component: {fileID: 982888774}
   m_Layer: 0
-  m_Name: Genarated Octagon Ring
+  m_Name: Genarated Custom Ring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -338,7 +338,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982888769}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.19, y: 0, z: -2.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -371,7 +371,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 681423f5c8b9b394095c30d3ffe55759, type: 2}
+  - {fileID: 2100000, guid: b9caf760486e5194fb50208bbbd932fa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -402,11 +402,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 982888769}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69929db0459d08743ae3dee01c9ff241, type: 3}
+  m_Script: {fileID: 11500000, guid: 694417c3867ac5249a75d3f3e15e7513, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  octagonRingRadius: 5
-  obj: {fileID: 2136836593}
+  innerOctagonRingRadius: 1.44
+  thickness: 1.37
+  pointCount: 3
 --- !u!1 &1269076232
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,7 +555,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 681423f5c8b9b394095c30d3ffe55759, type: 2}
+  - {fileID: 2100000, guid: b9caf760486e5194fb50208bbbd932fa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
